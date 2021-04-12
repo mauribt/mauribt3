@@ -311,7 +311,7 @@ pone ${prefix}verify para poder usar el bot.`
 			  const isCmd = body.startsWith(prefix)
 		const is = budy.slice(0).trim().split(/ +/).shift().toLowerCase()
 			  mess = {
-	wait: 'banca',
+	wait: 'para',
 	success: 'si',
 	Public: 'modo privado activado',
 	ferr: 'no',
@@ -326,7 +326,7 @@ pone ${prefix}verify para poder usar el bot.`
 	  ownerB: 'este comando solo puede ser usado por el dueño del bot',
 	  admin: 'necesitas ser admin para este comando',
 	  Badmin: 'el bot debe ser admin para este comando',
-	  daftarB: `hola usa *${prefix}verify* para poder usar el bot`
+	  daftarB: `usa *${prefix}verify* para poder usar el bot`
 	}
   }
 		const totalchat = await Lxa.chats.all()
@@ -577,10 +577,6 @@ pone ${prefix}verify para poder usar el bot.`
   ────────────────
   〘 *𝘮𝘢𝘶𝘳𝘪-bt* 〙
   ‣ Prefijo:  *「 ${prefix} 」*
-  ‣ Yo soy: 𝘮𝘢𝘶𝘳𝘪-bt
-  ‣ Conección: *Baileys*
-  ‣ Tiempo encencido: *${kyun(uptime)}*
-  ‣ Modo: *ON*
   ‣ Grupo:  *${groupName}*
   ‣ Número de grupos: *${_registered.length}*
   ‣ Número de chats: *${totalchat.length}*
@@ -714,8 +710,8 @@ pone ${prefix}verify para poder usar el bot.`
   ┃ _Quiz aleatorio_
   ┠⊷️ *${prefix}Seberapagay (Nombre)*
   ┃ _Porcentaje de gay_
-  ┠⊷️ *${prefix}Seberapabucin (Nombre)*
-  ┃ _Porcentaje de bucin_
+  ┠⊷️ *${prefix}furry (Nombre)*
+  ┃ _Porcentaje de furro de mierda_
   ┗━━━━━━━━━━━━━━━━━━━━
   *〘 TOD 〙*
   ┏━━━━━━━━━━━━━━━━━━━━
@@ -874,7 +870,7 @@ pone ${prefix}verify para poder usar el bot.`
   ┃ _Anuncio_
   ┠⊷️ *${prefix}Blocklist*
   ┃ _Lista de usuarios bloqueados_
-  ┃ 𝗢𝗪𝗡𝗘𝗥𝗦: ɱɛƖıơɖąʂ🖤ᴷᴬᴺᴱᴷᴵ 
+  ┃ 𝗢𝗪𝗡𝗘𝗥𝗦: 𝘮𝘢𝘶𝘳𝘪 
   ┗━━━━━━━━━━━━━━━━━━━━`,
   
   contextInfo: {
@@ -1136,7 +1132,7 @@ pone ${prefix}verify para poder usar el bot.`
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-	quoted: mek, caption: `𝘮𝘢𝘶𝘳𝘪-bt`
+	quoted: mek, caption: `toma`
   })
   
   } catch {
@@ -1160,7 +1156,7 @@ pone ${prefix}verify para poder usar el bot.`
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-	quoted: mek, caption: `𝘮𝘢𝘶𝘳𝘪-bt`
+	quoted: mek, caption: `toma`
   })
   
   } catch {
@@ -1214,7 +1210,7 @@ pone ${prefix}verify para poder usar el bot.`
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-	quoted: mek, caption: `𝘮𝘢𝘶𝘳𝘪-bt`
+	quoted: mek, caption: `toma`
   })
   
   break
@@ -1239,7 +1235,7 @@ pone ${prefix}verify para poder usar el bot.`
 	nimek = n[Math.floor(Math.random() * n.length)];
 	pok = await getBuffer(nimek)
 	Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `𝘮𝘢𝘶𝘳𝘪-bt`
+  quoted: mek, caption: `toma`
 	})
 	
 	} catch {
@@ -1269,7 +1265,7 @@ pone ${prefix}verify para poder usar el bot.`
 	nimek = n[Math.floor(Math.random() * n.length)];
 	pok = await getBuffer(nimek)
 	Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `𝘮𝘢𝘶𝘳𝘪-bt`
+  quoted: mek, caption: `toma`
 	})
 	
 	} catch {
@@ -1295,7 +1291,7 @@ pone ${prefix}verify para poder usar el bot.`
 	nimek = n[Math.floor(Math.random() * n.length)];
 	pok = await getBuffer(nimek)
 	Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `𝘮𝘢𝘶𝘳𝘪-bt`
+  quoted: mek, caption: `toma`
 	})
 	
 	} catch {
@@ -1321,7 +1317,7 @@ pone ${prefix}verify para poder usar el bot.`
 	nimek = n[Math.floor(Math.random() * n.length)];
 	pok = await getBuffer(nimek)
 	Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `𝘮𝘢𝘶𝘳𝘪-bt`
+  quoted: mek, caption: `toma`
 	})
 	
 	} catch {
@@ -1435,17 +1431,17 @@ pone ${prefix}verify para poder usar el bot.`
 	
 	break
   
-  case 'seberapabucin':
+  case 'furry':
 	if (!isRegister) return reply(mess.only.daftarB)
 	
-	if (args.length < 1) return Lxa.sendMessage(from, 'Ingresa el nombre', text, {
+	if (args.length < 1) return Lxa.sendMessage(from, 'pone el nombre hijo de puta', text, {
   quoted: mek
 	})
 	teks = body.slice(15)
 	try {
 	Lxa.updatePresence(from, Presence.composing)
 	data = await fetchJson(`https://arugaz.herokuapp.com/api/howbucins`)
-	hasil = `*Bucin Detectado*\n‣ Nombre : *${args[0]}*\n‣ Porcentaje : *${data.persen}%*\n*${data.desc}*`
+	hasil = `*furro de mierda*\n‣ nombre : *${args[0]}*\n‣ porcentaje : *${data.persen}%*\n*${data.desc}*`
 	reply(hasil)
 	
 	} catch {
@@ -1552,7 +1548,7 @@ pone ${prefix}verify para poder usar el bot.`
   }
   break
   
-  case 'bucin':
+  case 'furry':
   case 'gombal':
   
 	Lxa.updatePresence(from, Presence.composing)
@@ -1766,7 +1762,7 @@ pone ${prefix}verify para poder usar el bot.`
 	})
   
   } else {
-	reply('Manda la foto')
+	reply('la foto pedazo de pelotudo')
   }
   break
   
@@ -1782,7 +1778,7 @@ pone ${prefix}verify para poder usar el bot.`
 	hehe = await getBuffer(`https://videfikri.com/api/textmaker/pencil/?urlgbr=${anu.display_url}`)
    Lxa.sendMessage(from, hehe, image, {quoted:mek})
   } else {
-	reply('Manda la foto')
+	reply('la foto pedazo de pelotudo')
   }
   break
   
@@ -1799,7 +1795,7 @@ pone ${prefix}verify para poder usar el bot.`
 	hehe = await getBuffer(`https://videfikri.com/api/textmaker/wanted/?urlgbr=${anu.display_url}&text1=Dicari&text2=${tels}`)
    Lxa.sendMessage(from, hehe, image, {quoted:mek})
   } else {
-	reply('Manda la foto')
+	reply('la foto pedazo de pelotudo')
   }
   break
   
@@ -1815,7 +1811,7 @@ pone ${prefix}verify para poder usar el bot.`
 	hehe = await getBuffer(`https://videfikri.com/api/textmaker/gtavposter/?urlgbr=${anu.display_url}`)
    Lxa.sendMessage(from, hehe, image, {quoted:mek})
   } else {
-	reply('Manda la foto')
+	reply('la foto pedazo de pelotudo|')
   }
   break
   
